@@ -1,6 +1,6 @@
 function hello(a) {
-  return a * 60;
+  return a + 1;
 }
-console.log(hello(5));
-console.log(hello(3));
-console.log(hello(2));
+console.log(hello(0));
+console.log(hello(9));
+console.log(hello(-3));
