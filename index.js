@@ -1,6 +1,6 @@
-function hello(a) {
-  return a + 1;
+function hello(base, heigth) {
+  return (base * heigth) / 2;
 }
-console.log(hello(0));
-console.log(hello(9));
-console.log(hello(-3));
+console.log(hello(3, 2));
+console.log(hello(7, 4));
+console.log(hello(10, 10));
