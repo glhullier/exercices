@@ -1,6 +1,6 @@
-function hello(base, heigth) {
-  return (base * heigth) / 2;
+function age(annee) {
+  return annee * 365;
 }
-console.log(hello(3, 2));
-console.log(hello(7, 4));
-console.log(hello(10, 10));
+console.log(age(65));
+console.log(age(0));
+console.log(age(20));
