@@ -1,6 +1,7 @@
-function age(annee) {
-  return annee * 365;
+function cube(number) {
+  return number * number * number;
 }
-console.log(age(65));
-console.log(age(0));
-console.log(age(20));
+
+console.log(cube(3));
+console.log(cube(5));
+console.log(cube(10));
