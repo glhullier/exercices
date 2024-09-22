@@ -8,9 +8,15 @@
 </head>
 
 <body>
+    <h1>Il fait beau aujourd'hui</h1>
+
     <?php
+    $variable = "Ceci est une variable";
+    echo $variable;
 echo "Je suis là";
+include ('page.php')
     ?>
+    <script src="script.js"></script>
 </body>
 
 </html>
