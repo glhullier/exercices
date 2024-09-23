@@ -12,8 +12,9 @@
 
     <?php
     $variable = "Ceci est une variable";
-    echo $variable;
-echo "Je suis là";
+    echo   'Est ce une variable?  <br/> '.$variable.'<br/>';
+    echo $variable.'<br/>';
+echo "Je suis là ";
 include ('page.php')
     ?>
     <script src="script.js"></script>
