@@ -11,11 +11,16 @@
     <h1>Il fait beau aujourd'hui</h1>
 
     <?php
+    $data = 20;
     $variable = "Ceci est une variable";
-    echo   'Est ce une variable?  <br/> '.$variable.'<br/>';
+    $variable = "Ceci est la variable modifiée";//variable modifiée
+    if($data < 20){
+        echo "data est inférieur à 20 <br/>";//condition
+    }
+    echo   'Est ce une variable?  <br/> '.$variable.'<br/>';//concatenation
     echo $variable.'<br/>';
 echo "Je suis là ";
-include ('page.php')
+include ('page.php')//Integrer une page php
     ?>
     <script src="script.js"></script>
 </body>
