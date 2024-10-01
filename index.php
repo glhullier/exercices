@@ -49,6 +49,9 @@
     echo $donnee;
     $variable = "Ceci est une variable";
     $variable = "Ceci est la variable modifiée";//variable modifiée
+    echo '<pre>';
+echo '<p>Ceci est un texte html dans le php</p>';
+    echo'</pre>';
     if($data < 20){
         echo "data est inférieur à 20 <br/>";//condition
     }
