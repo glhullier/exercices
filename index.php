@@ -8,8 +8,9 @@
 </head>
 
 <body>
-    <h1>Il fait beau aujourd'hui</h1>
-
+    <div class="titre">
+        <h1>Il fait beau aujourd'hui</h1>
+    </div>
     <?php 
     $condition = 0;
     $boucle = 0;   
@@ -19,6 +20,15 @@
     $prenoms= array('Pierre', 'Paul', 'Jacques');//tableau
     echo 'Le second prénom du tableau est:'.$prenoms[1].'<br/>';
     $age = array('Pierre'=>1, 'Paul'=>2, 'Jacques'=>3);//Tableau associatif
+    echo $age['Paul'];
+    for ($x=0;$x<=2;$x++){
+        echo $prenoms[$x].'<br/>';
+    }//Boucle for pour le tableau prenom
+    
+    foreach($age as $valeurs){
+        echo $valeurs.'<br/>';       
+    }//Affichage d'un tableau associatif
+    
     echo 'L\'age de Paul est égal à :'.$age['Paul'].'<br/>';
     while ( $boucle<=3){
         echo $boucle."<br/>";//boucle while
