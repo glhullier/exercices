@@ -49,15 +49,23 @@
     echo $donnee;
     $variable = "Ceci est une variable";
     $variable = "Ceci est la variable modifiée";//variable modifiée
-    echo '<pre>';
-echo '<p>Ceci est un texte html dans le php</p>';
-    echo'</pre>';
+    
+    echo '<p>Ceci est un texte html dans le php</p>';
+    
     if($data < 20){
         echo "data est inférieur à 20 <br/>";//condition
     }
+
+    $table= array(
+        array('Pierre',34),
+        array('Michel',23)
+    );    
+
     echo   'Est ce une variable?  <br/> '.$variable.'<br/>';//concatenation
+     echo  'Grâce au tableau multidimentionnel , Michel a '.$table[1][1].'ans <br/>';
     echo $variable.'<br/>';
-echo "Je suis là ";
+    echo "Je suis là <br/>";
+   
 include ('page.php')//Integrer une page php
     ?>
     <script src="script.js"></script>
