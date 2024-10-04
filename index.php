@@ -50,11 +50,19 @@
     $variable = "Ceci est une variable";
     $variable = "Ceci est la variable modifiée";//variable modifiée
     
-    echo '<p>Ceci est un texte html dans le php</p>';
+    echo '<p class = "espace">Ceci est un texte html dans le php</p>';
     
     if($data < 20){
         echo "data est inférieur à 20 <br/>";//condition
     }
+    function bonjour (){
+        echo 'Ceci est un bonjour ecrit sous forme de fonction<br/>';
+    }
+    bonjour();
+    function ecrire ($prenom){
+        echo 'Je dis bonjour à '.$prenom.' grâce à la fonction ecrire <br/>';
+    }
+    ecrire ('Pierre');
 
     $table= array(
         array('Pierre',34),
