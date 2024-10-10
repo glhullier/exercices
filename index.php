@@ -62,7 +62,8 @@
     function ecrire ($prenom){
         echo 'Je dis bonjour à '.$prenom.' grâce à la fonction ecrire <br/>';
     }
-    ecrire ('Pierre');
+    ecrire ('Pierre');  
+
 
     $table= array(
         array('Pierre',34),
@@ -73,9 +74,15 @@
      echo  'Grâce au tableau multidimentionnel , Michel a '.$table[1][1].'ans <br/>';
     echo $variable.'<br/>';
     echo "Je suis là <br/>";
+
+   
    
 include ('page.php')//Integrer une page php
+
+
     ?>
+
+
     <script src="script.js"></script>
 </body>
 
