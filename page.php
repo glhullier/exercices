@@ -60,6 +60,9 @@ echo "Date affichee grace à la méthode date";
 
 echo "<br/><br/>";
 
+define("CONSTANTE","Je suis une constante PHP");
+echo CONSTANTE."<br/><br/>";
+
 
 
 ?>
