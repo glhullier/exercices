@@ -8,8 +8,21 @@
 </head>
 
 <body>
+    <form method="POST" action="target.php">
+        <p><label for='prenom'>Enrez votre prénom</label>
+            <input type='text' name='prenom' id="prenom" />
+        </p>
+        <p>
+            <input type='submit' value='Envoyer' />
+        </p>
+    </form>
+    <p>Ce formulaire envoie la donnéee dans le fichier
+        <strong class='cible'>target.php</strong>
+    </p>
+    <br /><br />
+
     <div class="titre">
-        <h1>Il fait beau aujourd'hui</h1>
+        <h1>Il fait beau aujourd' hui</h1>
     </div>
     <?php 
     $condition = 0;
@@ -28,6 +41,8 @@
     foreach($age as $valeurs){
         echo $valeurs.'<br/>';       
     }//Affichage d'un tableau associatif
+
+    
     
     echo 'L\'age de Paul est égal à :'.$age['Paul'].'<br/>';
     while ( $boucle<=3){
