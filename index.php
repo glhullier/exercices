@@ -25,6 +25,8 @@
         <h1>Il fait beau aujourd' hui</h1>
     </div>
     <?php 
+
+    
     $condition = 0;
     $boucle = 0;   
     $tableau = array (56,45,76);//tableau
